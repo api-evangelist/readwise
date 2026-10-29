@@ -64,23 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Readwise is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Readwise is a service that helps users retain and revisit their reading highlights and annotations across various platforms. It surfaces saved highlights, offers spaced‑repetition reminders, and integrates with apps like Kindle, Instapaper, Pocket, and many note‑taking tools, enabling a continuous learning workflow for readers and researchers alike.
 
-**Areas:** Company
+**Areas:** Reading · Productivity · Knowledge Management · SaaS · API
 
 ## Readwise on APIs.io
 
 Everything profiled for Readwise is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/readwise/](https://apis.io/providers/readwise/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Readwise API](https://apis.io/apis/readwise/readwise-api-2/) — Readwise API allows creating, fetching, and updating highlights on behalf of the user.
+- [Readwise API](https://apis.io/apis/readwise/readwise-api/) — Readwise API as documented publicly: 14 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteApiV3Delete0000Ffff2222Eeee3333Dddd4444Response](https://apis.io/schemas/readwise/readwise-delete-api-v3-delete0000-ffff2222-eeee3333-dddd4444-response/)
+- [GetApiV3ListResponse2](https://apis.io/schemas/readwise/readwise-get-api-v3-list-response2/)
+- [GetApiV3TagsResponse](https://apis.io/schemas/readwise/readwise-get-api-v3-tags-response/)
+- [PostApiV2HighlightsResponse](https://apis.io/schemas/readwise/readwise-post-api-v2-highlights-response/)
+- [PostApiV2ReviewCompleteResponse](https://apis.io/schemas/readwise/readwise-post-api-v2-review-complete-response/)
+- [PostApiV3SaveRequest2](https://apis.io/schemas/readwise/readwise-post-api-v3-save-request2/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Readwise Context](https://apis.io/jsonld/readwise/readwise-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Readwise API Rules](https://apis.io/rules/readwise/readwise-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Readwise Authentication](https://apis.io/security/readwise/readwise-authentication/)
+- [Readwise Domain Security](https://apis.io/security/readwise/readwise-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Readwise Scopes](https://apis.io/scopes/readwise/readwise-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Readwise Plans Pricing](https://apis.io/plans/readwise/readwise-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Readwise Rate Limits](https://apis.io/rate-limits/readwise/readwise-rate-limits/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://readwise.io/)
+- [Documentation](https://docs.readwise.io/)
+- [Getting started](https://readwise.io/apple_notes)
+- [Pricing](https://readwise.io/pricing)
+- [Changelog](https://readwise.io/changelog)
+- [Blog](https://blog.readwise.io/)
+- [Terms of service](https://readwise.io/terms-of-service)
+- [Privacy policy](https://readwise.io/privacy-policy)
+- [GitHub](https://github.com/readwise)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/readwise/](https://apis.io/providers/readwise/).
+**Kin Score 59.8** — strong · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 52.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 28.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/readwise/](https://apis.io/providers/readwise/).
 
 ## How this profile is made
 
